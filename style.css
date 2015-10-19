@@ -19,11 +19,8 @@ button{outline: none!important;} /* Prevent ugly blue glow on chrome and safari 
    
 
 
-
-
 /* Globals type styling */
-   
- h1, h2, h3, h4, h5, h6, p, label, .btn, a{
+    h1, h2, h3, h4, h5, h6, p, label, .btn, a{
 	font-family:"Helvetica";
 }
 
@@ -55,18 +52,11 @@ button{outline: none!important;} /* Prevent ugly blue glow on chrome and safari 
 
 /* Sizes */
 
-.bloc-lg{
-	padding:100px 50px;
+.bloc-md{
+	padding:50px;
 }
 .bloc-sm{
 	padding:20px 50px;
-}
-
-
-/* Background Effects */
-
-.b-parallax{
-	background-attachment:fixed;
 }
 
 
@@ -158,8 +148,19 @@ button{outline: none!important;} /* Prevent ugly blue glow on chrome and safari 
 	border-color:rgba(0,0,0,.3);
 }
 
+/* Row Margin Offsets */
+
+.voffset{
+	margin-top:30px;
+}
+
 /* Bloc text custom styling */
 
+#hero-bloc h1{
+	font-size: 50px;
+	font-weight: 700;
+	font-family: PT Serif Caption;
+}
 
 /* = NavBar
 -------------------------------------------------------------- */
@@ -350,11 +351,6 @@ button{
 
 .dropdown a .caret{
 	margin:0 0 0 5px}
-/* = Icons
--------------------------------------------------------------- */
-.icon-md{
-	font-size:30px!important;
-}
 
 
 
@@ -389,14 +385,17 @@ iframe{
 	background-color:#ffffff;
 }
 .bgc-dark-jungle-green{
-	background-color:#1E1F22;
-}
-.bgc-dark-jungle-green-2{
 	background-color:#1E1F21;
 }
 
 /* Bloc image backgrounds */
 
+.bg-shutterstock-258657008{
+	background-image:url("img/shutterstock_258657008.jpg");
+}
+.bg-shutterstock-258657008{
+	background-image:url('img/shutterstock_258657008.jpg');
+}
 .bg-shutterstock-258657008{
 	background-image:url('img/shutterstock_258657008.jpg');
 }
